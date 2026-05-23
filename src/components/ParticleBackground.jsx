@@ -39,9 +39,9 @@ export default function ParticleBackground() {
 
     function draw() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      pulse += 0.005;
+      pulse += 0.008;
 
-      const SIZE = 55;
+      const SIZE = 40;
       const W = SIZE * 2;
       const H = Math.sqrt(3) * SIZE;
       const cols = Math.ceil(canvas.width / (W * 0.75)) + 2;
@@ -92,7 +92,7 @@ export default function ParticleBackground() {
         }
       }
 
-      animId = setTimeout(() => requestAnimationFrame(draw), 40);
+     animId = requestAnimationFrame(draw);
     }
 
     draw();

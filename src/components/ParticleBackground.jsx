@@ -39,9 +39,9 @@ export default function ParticleBackground() {
 
     function draw() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      pulse += 0.008;
+      pulse += 0.015;
 
-      const SIZE = 40;
+      const SIZE = 28;
       const W = SIZE * 2;
       const H = Math.sqrt(3) * SIZE;
       const cols = Math.ceil(canvas.width / (W * 0.75)) + 2;

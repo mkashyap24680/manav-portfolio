@@ -2,13 +2,11 @@ import "./Pages.css";
 
 const PROJECTS = [
   {
-    title: "Infrastructure Monitoring Dashboard",
-    desc: "Built a centralized monitoring dashboard using Zabbix and Grafana to track server health, CPU/memory usage, and network metrics for 50+ servers with real-time alerting.",
-    tags: ["Zabbix", "Grafana", "Linux", "Bash"],
+    title: "College Management Portal",
+    desc: "Designed and developed a full-stack web-based college management system. Integrated frontend and backend using PHP and MySQL for seamless data handling. Implemented secure login, student records management, and data reporting features.",
+    tags: ["HTML", "CSSa", "JavaScript", "MySQL"],
     link: "#",
   },
- 
-  
 ];
 
 export default function Projects() {

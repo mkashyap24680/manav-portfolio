@@ -83,12 +83,12 @@ export default function ParticleBackground() {
           }
 
           // Bright node dots at hex corners (sparse)
-          if (Math.random() > 0.998) {
-            ctx.beginPath();
-            ctx.arc(x, y, 1.5, 0, Math.PI * 2);
-            ctx.fillStyle = `rgba(0, 255, 136, 0.8)`;
-            ctx.fill();
-          }
+         // if (Math.random() > 0.998) {
+          //  ctx.beginPath();
+          //  ctx.arc(x, y, 1.5, 0, Math.PI * 2);
+           // ctx.fillStyle = `rgba(0, 255, 136, 0.8)`;
+           // ctx.fill();
+         // }
         }
       }
 

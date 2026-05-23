@@ -5,7 +5,7 @@ const PROJECTS = [
     title: "College Management Portal",
     desc: "Designed and developed a full-stack web-based college management system. Integrated frontend and backend using PHP and MySQL for seamless data handling. Implemented secure login, student records management, and data reporting features.",
     tags: ["HTML", "CSSa", "JavaScript", "MySQL"],
-    link: "#",
+    link: "https://github.com/mkashyap24680/my-diet-web.git",
   },
 ];
 
